@@ -5,6 +5,10 @@
     "selenium-webdriver": "registry:dt/selenium-webdriver#2.44.0+20160317120654"
   },
   "ambientDependencies": {
-    "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654"
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654",
+    "cucumber": "github:DefinitelyTyped/DefinitelyTyped/cucumber/cucumber.d.ts#a11943b74002217b9e01c8f42b7dfca647869227",
+    "promises-a-plus": "registry:dt/promises-a-plus#0.0.0+20160317120654",
+    "chai": "registry:dt/chai#3.4.0+20160317120654",
+    "chai-as-promised": "registry:dt/chai-as-promised#0.0.0+20160317120654"
   }
 }
