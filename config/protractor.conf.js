@@ -9,13 +9,13 @@ exports.config = {
 	specs: [
 		'../e2e/**/*.feature'
 	],
-    cucumberOpts: {
-      require: [
-        '../e2e/**/*.steps.ts'
-      ],
-      format: 'json:./e2e/protractor-cucumber-report.json',
-      tags: '~@ignore'
-    },
+	cucumberOpts: {
+		require: [
+			'../e2e/**/*.steps.ts'
+		],
+    format: 'json:./e2e/protractor-cucumber-report.json',
+		tags: '~@ignore'
+	},
 
   allScriptsTimeout: 11000,
   capabilities: {
