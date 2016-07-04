@@ -2,7 +2,9 @@ import {binding, given, when, then} from 'cucumber-tsflow';
 import * as chai from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
 var expect = chai.use(chaiAsPromised).expect;
-import { BoilerplateBddPage } from '../app.po';
+
+import { PageFactory } from '../pageObjects/pageFactory';
+import { IHomePage } from '../pageObjects/homepage.api';
 
 @binding()
 class DemoSteps {
@@ -11,7 +13,7 @@ class DemoSteps {
 
   @given(/^I open the browser$/)
   private givenIOpenTheBrowser(callback: cucumber.CallbackStepDefinition): void {
-    this.page = new BoilerplateBddPage();
+    this.page = PageFactory.homepage();
     callback();
   };
 
