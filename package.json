@@ -32,7 +32,7 @@
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
     "codelyzer": "0.0.20",
-    "cucumber": "^1.2.0",
+    "cucumber": "1.0.0",
     "cucumber-tsflow": "^1.1.1",
     "cucumberjs-junitxml": "0.0.12",
     "ember-cli-inject-live-reload": "1.4.0",
